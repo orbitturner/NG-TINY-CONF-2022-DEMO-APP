@@ -1,197 +1,38 @@
-# 🟢 ORBIT ENCODER ⚙️🗜️
-[![Compatible Status](https://img.shields.io/badge/works%20with-PS1-blue)](https://github.com/orbitturner/ORBIT-ENCODER)
-[![Code Size Status](https://img.shields.io/github/languages/code-size/orbitturner/ORBIT-ENCODER)](https://github.com/orbitturner/ORBIT-ENCODER)
-[![Commit Status](https://img.shields.io/github/commit-activity/m/orbitturner/ORBIT-ENCODER?color=red)](https://github.com/orbitturner/ORBIT-ENCODER)
-[![Issues Status](https://img.shields.io/github/issues/orbitturner/ORBIT-ENCODER)](https://github.com/orbitturner/ORBIT-ENCODER)
-[![npm version](https://img.shields.io/npm/v/ORBIT-ENCODER.svg)](https://github.com/orbitturner/ORBIT-ENCODER) [![license](https://img.shields.io/npm/l/ORBIT-ENCODER.svg)](https://github.com/orbitturner/ORBIT-ENCODER)
+# 🟢 NG TINY CONF 2022  ⚙️🗜️
+## DEPLOYER VOTRE PROJET ANGULAR SUR UN VPS
 
-**ORBIT-ENCODER** is an utility library for Data Compression and Encoding. It can take whatever object you give him as argument and returns a compressed encoded string. It provides a decoding method too. It uses a modified version of [*LZString*](https://www.npmjs.com/package/lz-string) for UTF16 Compression.
+
+**LE NG TINY CONF** est Le premier "tiny" événement #Angular mais énorme en impact. Venez nous joindre pour quatre sessions avec des sujets focus sur le pragmatisme et l'application des "best practices" avec cette puisssante plate-forme.
+
 
 <p align="center">
   <a href="http://orbitturner.com/"><img src="./.repo-assets/images/GITHUB REPOS COVER.gif" width="auto" alt="ORBIT-ENCODER COVER"/></a>
 </p>
 
 
-<h1 align="center">INSTALLATION</h1>
+<h1 align="center">ASSETS</h1>
 <p align="center">
-<a href="https://github.com/orbitturner/ORBIT-ENCODER"><img src="https://img.shields.io/badge/DOWNLOAD-LATEST%20VERSION-lime?style=for-the-badge&logo=docusign&logoColor=lime"></a>
-<a href="https://github.com/orbitturner/ORBIT-ENCODER/issues/new/choose"><img src="https://img.shields.io/badge/ISSUES-CREATE%20AN%20ISSUE-crimson?style=for-the-badge&logo=indeed&logoColor=CRIMSON"></a>
+<a href="https://docs.google.com/presentation/d/1AKzGlxvMt9E5uoAMrhcb7IuGTDd15wOL4a8R3pzQLr8/edit?usp=sharing"><img src="https://img.shields.io/badge/SLIDE-VOIR%20LE%20SLIDE-lime?style=for-the-badge&logo=slideshare&logoColor=lime"></a>
+<a href="https://github.com/orbitturner/orbit-toolbox"><img src="https://img.shields.io/badge/DEMO-ORBIT%20TOOLBOX%20APP-crimson?style=for-the-badge&logo=appwrite&logoColor=CRIMSON"></a>
 </p>
 <br/>
 
 ___
-## 📚 Table Of Contents 📑
-- [🟢 ORBIT ENCODER ⚙️🗜️](#orbit-encoder)
-  * [📚 Table Of Contents 📑](#table-of-contents)
-  * [💨 What is this Library for? 🤔](#what-is-this-library-for)
-  * [✨ Key Features 🎯](#key-features---)
-  * [📥 HOW TO RUN IT ? 🔰](#how-to-run-it)
-  * [🤔 HOW IT WORKS ? 🤔](#how-it-works)
-    + [➤ Encode & Decode Given Data 🟢](#encode---decode-given-data)
-  * [Configuration Options](#configuration-options)
-  * [Contributing ❤](#contributing--)
-  * [Issue Reporting](#issue-reporting)
-  * [GREETINGS](#greetings)
-  * [Author](#author)
-  * [License](#license)
+## 📚 Table des Matieres 📑
+- [🟢 SLIDES TOC ⚙️🗜️](#orbit-encoder)
+  * [📚 VPS ? 📑](https://docs.google.com/presentation/d/1AKzGlxvMt9E5uoAMrhcb7IuGTDd15wOL4a8R3pzQLr8/edit#slide=id.g109f20d3304_0_5948)
+  * [💨 C'est quoi NGINX ? 🤔](https://docs.google.com/presentation/d/1AKzGlxvMt9E5uoAMrhcb7IuGTDd15wOL4a8R3pzQLr8/edit#slide=id.g109f20d3304_0_6014)
+  * [✨ Les Utilitaires 🎯](https://docs.google.com/presentation/d/1AKzGlxvMt9E5uoAMrhcb7IuGTDd15wOL4a8R3pzQLr8/edit#slide=id.g109f20d3304_0_6262)
+  * [📥 Configuration 🔰](https://docs.google.com/presentation/d/1AKzGlxvMt9E5uoAMrhcb7IuGTDd15wOL4a8R3pzQLr8/edit#slide=id.g109f20d3304_0_5994)
+  * [🚀 DEPLOIEMENT 🟢](https://docs.google.com/presentation/d/1AKzGlxvMt9E5uoAMrhcb7IuGTDd15wOL4a8R3pzQLr8/edit#slide=id.g109f20d3304_0_5931)
+    + [➤ WHATS NEXT ? 🤔](https://docs.google.com/presentation/d/1AKzGlxvMt9E5uoAMrhcb7IuGTDd15wOL4a8R3pzQLr8/edit#slide=id.g109f20d3304_0_6172)
 
 ___
 
-## 💨 What is this Library for? 🤔
+## 💨 En quoi consistait ma Présentation ? 🤔
 
-**ORBIT-ENCODER** is a small library that is useful for Encoding Objects [`String, Arrays, JSON, Anything...`] to a `Compressed UTF16` String. You can also Decode that string back using The exposed **Decode**  method.
+Ma présentation consistait a montrer comment déployer une application Angular dans un Serveur Privé Virtuel en passant par la sécurité, la management et la configuration de NGINX ainsi que quelques bonus.
 
-
-> **Note:** This library can only be used with JS or TS but you already know that 🤦🏿‍♂️.
-
-
-
-## ✨ Key Features 🎯
-
-* Use it **without `Instanciation`**  because all the methods are `Static`.
-* **Fast and High Performance Compression** of big Complex Data.
-* ✅ TOO EASY TO USE !! 🥳🥳
-
-___
-
-## 📥 HOW TO RUN IT ? 🔰
-
-```bash
-# installation with npm
-npm install array-querier
-
-# or you may prefer
-npm i --save array-querier
-
-# installation with yarn
-yarn add array-querier
-```
-
-**This SCRIPT relies on NOTHING SO YOU DON'T NEED ADDITIONNAL PACKAGES.**
-
-___
-## 🤔 HOW IT WORKS ? 🤔
-
-You only need to Import the ***OrbitEncoder*** Class from the Package and start using it !
-
-### ➤ Encode & Decode Given Data 🟢
-If you have a User object as follows ->
-```json
-const User = {
-    "name": "Orbit",
-    "age": 21,
-    "planet": {
-        "id": 4,
-        "codename" : "Shadow-Coders",
-        "galaxyName" : "Turner"
-    }   
-}
-```
-👇🏾 Let's Encode and Decode an Objects :
-
-- **ECMAScript Modules and Typescript** 
-```typescript
-    import {OrbitEncoder} from 'orbit-encoder/lib/OrbitEncoder';
-
-    // Then Encode whatever you want
-    const encodedData = OrbitEncoder.encode(User);
-
-    console.log(encodedData);
-    /**
-     * 👇🏾 Output: 👇🏾
-     * 
-     * ᓢ㰴䅼ী甤〦恩Ìߐዠᔣᣡ䂦TɈ〦⁐䰠ᘡ㐢〪僠㲪␠祶fĂ࢕⓸Ǹ͚ࣣគⵉM䀼䀻什䁕㒘攈ᢸ᣷吰ৣ乩厖亰æၩ䩴¸椮ࠢ昤怪挑䃒塐恬睂⑘䤣&㉀PƘ䀠
-     * 
-     * /
-```
-```typescript
-    ...
-    const decodedData = OrbitEncoder.decode(encodedData);
-
-    console.log(decodedData);
-    /**
-     * 👇🏾 Output: 👇🏾
-     * 
-     * {
-        name: 'Orbit',
-        age: 21,
-        planet: { id: 4, codename: 'Shadow-Coders', galaxyName: 'Turner' }
-      }
-     * 
-     * /
-```
-**🛑 ANGULAR & FRONTEND USERS ☢️**
-> **Note:** If you are using this in your frontend application you'll need to add the folowing line in your `index.html` 👇🏾:.
-```html
-    <script> if (global === undefined) { var global = window; } </script>
-```
-> **FIX COMING:** We are working on Future updates that will try to fix this error [*Uncaught ReferenceError: global is not defined*].
-
-
-
-- **CommonJs and Vailla JS** 
-```javascript
-  const orbit = require("orbit-encoder").OrbitEncoder;
-
-  const data = orbit.encode('Bodio Bodio Yei !!');
-
-  console.log(data); // 🚀 Output :ᅢ汇ǌࢀ甠瀼橪梸恕<Ұᡠ⢠ୀ
-
-  console.log(orbit.decode(data));
-```
-> **⚠ Note: ⚠**    * You can do that : const orbit = require("orbit-encoder"); And use orbit.OrbitEncoder.encode() everywhere but for a more clean approach I did the  code above.
-
-
-### ➤ Encode & Decode Data Passed on URI 🟢
-Sometimes you may want to pass some heavy and complex data or datastructure in a URL, so you can use the `encodeWithURIsafe` method. It produces ASCII strings representing the original string encoded in Base64 with a few tweaks to make these URI safe. Hence, you can send them to the server without thinking about URL encoding them. 
-This saves bandwidth and CPU.
-
-- **ECMAScript Modules and Typescript** 
-```typescript
-    import {OrbitEncoder} from 'orbit-encoder/lib/OrbitEncoder';
-
-    const data = [['2021-03-02','2021-06-02'],['2022-05-05','2021-07-01']];
-
-    // Then Encode whatever you want
-    const encodedData = OrbitEncoder.encodeWithURIsafe(data);
-
-    console.log(dataForURI);
-
-    /**
-     * 👇🏾 Output: 👇🏾
-     * 
-     * OoRgzglgsgVgggTygZQAwHcoI1CBJMPGPTGAUQBcoARATSurwgA1kAPAIyJNjwYFUBEADIBhPEkZthAFTgBmWXDZ4ANiAAmQA
-     * 
-     * /
-```
-```typescript
-    ...
-    const decodedData = OrbitEncoder.decodeURIsafe(encodedData);
-
-    console.log(decodedData);
-    /**
-     * 👇🏾 Output: 👇🏾
-     * 
-     * [ [ '2021-03-02', '2021-06-02' ], [ '2022-05-05', '2021-07-01' ] ]
-     * 
-     * /
-```
-- **CommonJs and Vanilla JS** 
-```javascript
-  const orbit = require("orbit-encoder").OrbitEncoder;
-
-
-  const dataForURI = orbit.encodeWithURIsafe([['2021-03-02','2021-06-02'],['2022-05-05','2021-07-01']]);
-
-  console.log(dataForURI) // 🚀 Output : OoRgzglgsgVgggTygZQAwHcoI1CBJMPGPTGAUQBcoARATSurwgA1kAPAIyJNjwYFUBEADIBhPEkZthAFTgBmWXDZ4ANiAAmQA
-  
-  console.log(orbit.decodeURIsafe(dataForURI))
-```
-
-___
-## Configuration Options
-
-*Coming Soon !*
 ___
 ## Contributing ❤
 

@@ -1,4 +1,4 @@
-# Welcome to JOBKO's contributing guide <!-- omit in toc -->
+# Welcome to THIS REPO's contributing guide <!-- omit in toc -->
 
 Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [this repo](https://orbitturner.com/) ✨. 
 
